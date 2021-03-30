@@ -12,7 +12,7 @@ cron "0 0 * * *" script-path=https://raw.githubusercontent.com/Misaka09982/AutoS
 ===========小火箭========
 店铺签到 = type=cron,script-path=https://raw.githubusercontent.com/Misaka09982/AutoSignMachine/master/DIY_shopsign.jss, cronexpr="0 0 * * *", timeout=3600, enable=true
 */
-const $ = new Env('希望可以拉进去tg群@cuijian521a');
+const $ = new Env('店铺签到');
 
 const notify = $.isNode() ? require('./sendNotify') : '';
 //Node.js用户请在jdCookie.js处填写京东ck;
